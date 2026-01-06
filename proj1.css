@@ -153,17 +153,25 @@ table td:hover {
 /* Accordion navigation styles */
 .accordion ul li div a .nav-title {
     display: block;
+    width: fit-content;
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
-    margin-bottom: 5px;
+    margin: 0 auto 5px auto;
 }
 
 .accordion ul li div a .nav-subtitle {
     display: block;
+    width: fit-content;
+    margin: 0 auto 5px auto;
+    padding: 4px 8px;
     font-size: 0.9rem;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
